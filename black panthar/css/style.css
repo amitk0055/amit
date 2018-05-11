@@ -1,0 +1,135 @@
+body,h1,p{
+    margin: 0px;
+}
+h1{
+    font-family: 'Varela Round', sans-serif;
+    opacity: 0.8;
+    font-size: 30px;
+
+}
+h3,h2{
+    color: rgb(70, 70, 70);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    font-weight:500;
+}
+header{
+    width: 100%;
+    height: auto;
+    background-color: black;
+    color: azure;
+    position: fixed;
+    z-index: 2;
+}
+
+.nav-link{
+    font-size: 20px;
+    color:rgb(255, 255, 255);
+    font-family:'Times New Roman', Times, serif;
+}
+.navbar{
+    color: white;
+}
+.boxInner{
+    padding: 5%;
+    text-align: justify;
+}
+.nav-link:hover{
+
+    border-left: 2px solid rgb(255, 255, 255);
+    background-color: blueviolet;
+}
+.card{
+    width:200px;
+    margin:10px;
+
+}
+.box{
+
+    border-bottom: rgb(185, 185, 185) 1px solid;
+    padding-bottom: 20px;
+    margin-top: 20px;
+
+}
+.feature{
+    overflow: hidden;
+    width:100%;
+}
+.feature img{
+    width: 100%;
+}
+.ferureBox{
+    position: absolute;
+    top:80px;
+    padding: 20px;
+    color: white;
+}
+.feture1{
+    width:300px;
+    height: 200px;
+    background-color: rgb(65, 65, 65);
+}
+.container-fluid{
+    padding-right: 0px;
+    padding-left: 0px;
+}
+.boxFea{
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+
+}
+
+
+/*---------------------headerImg -------------------------------*/
+
+
+
+footer{
+    background-color: rgb(20, 20, 20);
+    height: 80px;
+    margin-top: 50px;
+}
+/* If the screen size is 600px or less, set the font-size of <div> to 30px */
+@media only screen and (max-width: 600px) {
+    .feature img{
+        width: 100%;
+    }
+  
+   header h1 {
+      font-size: 30px;
+      font-family: 'Varela Round', sans-serif;
+
+    }
+    .card{
+        width: 300px;
+    }
+    .feture1{
+        width: 100%
+    }
+    .ferureBox{
+        position: relative;
+        color: teal;
+        top:10px;
+
+    }
+    .feature{
+        top:50px;
+        overflow: visible;
+        max-height: 800px;;
+        
+    }
+    
+  }
+  .carousel-indicators li {
+    position: relative;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    width: 10px;
+    height: 10px;
+    border-radius: 10px;
+    margin-right: 3px;
+    margin-left: 3px;
+    text-indent: -999px;
+    background-color: rgba(255,255,255,.5);
+}
