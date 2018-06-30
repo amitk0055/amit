@@ -1,0 +1,154 @@
+
+a{
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+p{
+    font-family: Roboto,Helvetica,Arial,sans-serif;
+    font-size: 18px;
+    font-weight: 250;
+}
+a:hover{
+    color: white;
+    text-decoration: none;
+}
+section{
+    min-height: 100vh;
+    width: 100%;
+    position: relative;
+}
+/* ..............................Slider section .........................*/
+.feature{
+
+    min-height: 80vh;
+    overflow: hidden;
+    z-index: -10;
+    position: absolute;background-color: #ffed00;
+    width: 100%;
+
+}
+
+
+.carousel-inner img{
+    background-size: cover;
+    
+}
+
+.form-field{
+    background-color: rgba(255, 255, 255, 0.634);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 1px 2px 20px 1px rgb(10, 10, 10,0.6);
+  
+}
+.section-feature h2{
+    color: white;
+    text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.767);
+}
+.section-feature h1{
+    color: #ffed00;
+    text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.767);
+}
+.section-feature{
+    min-height: 80vh;
+    width: 100%;
+    padding-top: 15vh;
+    padding-bottom: 2vh;
+}
+
+
+.btn-slider{
+    width: auto;
+    height: auto;
+    color: white;
+    cursor: pointer;
+    padding: 15px 30px;
+}
+
+
+/* ..............................Price section .........................*/
+  .price-box{
+      width: 250px;
+      height: 500px;
+      text-align: center;
+     border-top: rgb(2, 2, 92)  10px solid;
+      background-color: white;
+      position: relative;
+      box-shadow: 0px 0px 5px rgb(20, 20, 20,0.3);
+      padding: 0px 15px;
+      margin: 80px auto 30px auto; 
+
+  }
+  .price-box-icon{
+      width: 80px;
+      height: 80px;
+      border-radius: 40px;
+      border:5px rgb(202, 202, 202) solid;
+      position: absolute;
+      top: -40px;
+      left: 80px;
+      overflow: hidden;
+  }
+  .section-price{
+     
+      display: flex;
+      flex-wrap: wrap;
+  }
+  .price-content{
+      padding-top: 50px;
+     
+  }
+
+  .section-oneSide{
+      background-color: rgb(238, 238, 238);
+      height: 100vh;
+
+  }
+  i{
+      text-shadow: 2px 2px 8px #13121252;
+  }
+  .why-box{
+      display: flex;
+    
+      align-items: center;
+        color: 
+        white;
+     
+  }
+
+  .why-box div{
+      padding: px;
+      text-align: center;
+       
+  }
+ .section-3{
+     position: sticky;
+     top: 60px;
+ }
+/*  ...... footer content here ......*/
+
+footer{
+    width: 100%;
+    height: auto;
+    background-color: rgb(19, 20, 20);
+    padding: 10px;
+    z-index: 999;
+    position: relative;
+}
+/*  ...... Bootstrap modification section ......*/
+
+.list-group-item{
+    padding: .4rem 1.25rem;
+  }
+  .bg-dark,.btn-primary{
+    background-color: rgb(2, 2, 92) !important;
+}
+.display-4{
+    font-weight: 450;
+    font-size: 45px;
+  }
+  .row{
+      margin: 0px;
+  }
