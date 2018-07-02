@@ -1,4 +1,5 @@
 
+
 a{
     color: white;
     font-size: 16px;
@@ -6,9 +7,9 @@ a{
 }
 
 p{
-    font-family: Roboto,Helvetica,Arial,sans-serif;
-    font-size: 18px;
-    font-weight: 250;
+    font-family: Product Sans,Roboto,arial,sans-serif;;
+    font-size: 16px;
+    font-weight: 200;
 }
 a:hover{
     color: white;
@@ -18,14 +19,16 @@ section{
     min-height: 100vh;
     width: 100%;
     position: relative;
+    
 }
+
 /* ..............................Slider section .........................*/
 .feature{
 
     min-height: 80vh;
     overflow: hidden;
     z-index: -10;
-    position: absolute;background-color: #ffed00;
+    position: absolute;background-color:black;
     width: 100%;
 
 }
@@ -37,7 +40,7 @@ section{
 }
 
 .form-field{
-    background-color: rgba(255, 255, 255, 0.634);
+    background-color: rgba(255, 255, 255, 0.234);
     padding: 30px;
     border-radius: 10px;
     box-shadow: 1px 2px 20px 1px rgb(10, 10, 10,0.6);
@@ -52,7 +55,7 @@ section{
     text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.767);
 }
 .section-feature{
-    min-height: 80vh;
+    min-height: 87vh;
     width: 100%;
     padding-top: 15vh;
     padding-bottom: 2vh;
@@ -66,14 +69,22 @@ section{
     cursor: pointer;
     padding: 15px 30px;
 }
+/* .......................................  About Section ........................... */
+.about-section{
+    padding-top: 30px;
+    background-color: #105c7d;
+    
+}
 
-
-/* ..............................Price section .........................*/
+/* ..............................Service section .........................*/
+    .service-section{
+        padding-top: 80px;
+    }
   .price-box{
       width: 250px;
       height: 500px;
       text-align: center;
-     border-top: rgb(2, 2, 92)  10px solid;
+     border-top: #105c7d  10px solid;
       background-color: white;
       position: relative;
       box-shadow: 0px 0px 5px rgb(20, 20, 20,0.3);
@@ -100,12 +111,11 @@ section{
       padding-top: 50px;
      
   }
-
-  .section-oneSide{
-      background-color: rgb(238, 238, 238);
-      height: 100vh;
-
-  }
+/* ....................................why-section .................................*/
+.why-section{
+    padding-top: 60px;
+    background-color: #105c7d;
+}
   i{
       text-shadow: 2px 2px 8px #13121252;
   }
@@ -119,13 +129,65 @@ section{
   }
 
   .why-box div{
-      padding: px;
+      padding: 5px;
       text-align: center;
        
   }
  .section-3{
      position: sticky;
      top: 60px;
+ }
+ /* ...........................................perfection-section.........................*/
+ .section-oneSide {
+    margin: 0px;
+    padding: 10px 0px;
+    align-items: center;
+ }
+ .section-oneSide{
+    background-color: rgb(238, 238, 238,0.2);
+    height: 100vh;
+
+}
+ .perImg{
+     background-image: url('../images/pexels-photo-123318.jpeg');
+     background-attachment: fixed;
+     overflow: hidden;
+     background-repeat: no-repeat;
+     background-size: auto 600px;
+     background-position: top;
+     background-size: cover;
+    
+ }
+ /* .....................................Feature Section ......................*/
+ .feature-section{
+     background-image: url('../images/pexels-photo-938965.jpeg');
+     background-attachment: fixed;
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position:top ;
+     padding-top: 70px;
+ }
+ .fe-box{
+     height: 200px;
+     width: 200px;
+     padding: 30px;
+    background-color: rgb(255, 255, 255,0.9);
+     color: rgb(0, 0, 0);
+     text-align: center;
+     overflow: hidden;
+     transition:  ease-in-out 0.5s;
+     align-items: center;
+     cursor: pointer;
+     border-radius: 100px;
+     margin: 10px;
+ }
+ .fe-box div:hover{
+    
+     transform: scale(1.1);
+     transition:  ease-in-out 0.4s;
+ }
+ .con{
+     background-color: lightgray;
  }
 /*  ...... footer content here ......*/
 
@@ -139,15 +201,17 @@ footer{
 }
 /*  ...... Bootstrap modification section ......*/
 
+
 .list-group-item{
     padding: .4rem 1.25rem;
   }
-  .bg-dark,.btn-primary{
-    background-color: rgb(2, 2, 92) !important;
+  .bg-secondary.btn-primary{
+    background-color: #105c7d !important;
+    transition: all ease-in-out 700ms;
 }
 .display-4{
     font-weight: 450;
-    font-size: 45px;
+    font-size: 35px;
   }
   .row{
       margin: 0px;
